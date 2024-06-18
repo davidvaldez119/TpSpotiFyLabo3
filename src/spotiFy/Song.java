@@ -4,10 +4,10 @@ public class Song {
 
 	private String name;
 	   private Double duration;
-	   private Gemre genre;
+	   private Genre genre;
 	   private Artist invvitedArtist;
 	   private Album album;
-	public Song(String name, Double duration, Gemre genre, Artist invvitedArtist, Album album) {
+	public Song(String name, Double duration, Genre genre, Artist invvitedArtist, Album album) {
 		
 		this.name = name;
 		this.duration = duration;
@@ -27,10 +27,10 @@ public class Song {
 	public void setDuration(Double duration) {
 		this.duration = duration;
 	}
-	public Gemre getGenre() {
+	public Genre getGenre() {
 		return genre;
 	}
-	public void setGenre(Gemre genre) {
+	public void setGenre(Genre genre) {
 		this.genre = genre;
 	}
 	public Artist getInvvitedArtist() {
