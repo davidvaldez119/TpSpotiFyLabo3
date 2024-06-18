@@ -1,6 +1,4 @@
-package spotiFy.ClientesServ.Main;
-
-package main;
+package spotiFy.Main;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

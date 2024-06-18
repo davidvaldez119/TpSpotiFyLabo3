@@ -1,5 +1,9 @@
 package spotiFy;
 
+import spotiFy.Clases.Album;
+import spotiFy.Clases.Artist;
+import spotiFy.Clases.Genre;
+
 public class Song {
 
 	private String name;

@@ -1,4 +1,4 @@
-package spotiFy;
+package spotiFy.Clases;
 
 public class Artist {
 	private String name;

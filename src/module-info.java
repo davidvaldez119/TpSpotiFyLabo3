@@ -1,7 +1,9 @@
 module spotiFy {
-    requires javafx.graphics;
-    requires javafx.fxml;
     requires javafx.controls;
+    requires javafx.fxml;
     requires javafx.media;
 
+    opens spotiFy.Main to javafx.fxml;
+
+    exports spotiFy.Main;
 }
