@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8e2444-85e2-48f6-ae0d-f49697d9c29e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/spotiFy/Clases/Album.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/spotiFy/Clases/Artist.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/spotiFy/Clases/BasicList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/spotiFy/Clases/Genre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_annotations_2_17_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/librerias/jackson-annotations-2.17.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/librerias/jackson-core-2.17.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/librerias/jackson-databind-2.17.1.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/bin/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/bin/api-ms-win-core-console-l1-2-0.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/bin/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
@@ -73,71 +68,32 @@
       <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/bin/ucrtbase.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/bin/vcruntime140.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/bin/vcruntime140_1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.base/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.base/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.base/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.controls/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.controls/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.fxml/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.fxml/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.graphics/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.graphics/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.graphics/jpeg_fx.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.graphics/mesa3d.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.media/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.media/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.media/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.media/directshow.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.media/glib.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.media/gstreamer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.media/libffi.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.swing/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.swing/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.web/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.web/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.web/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.web/icu_web.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.web/libxml2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.web/libxslt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/legal/javafx.web/webkit.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/lib/javafx-swt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/lib/javafx.base.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/lib/javafx.controls.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/lib/javafx.fxml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/lib/javafx.graphics.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/lib/javafx.media.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/lib/javafx.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/lib/javafx.swing.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/lib/javafx.web.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/librerias/javafx-sdk-22.0.1/src.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spotiFy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spotiFy/Main/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spotiFy/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spotiFy/Main/MusicPlayerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spotiFy/Main/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/login.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/musicplayer.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/register.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Album.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Artist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/BasicList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Song.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Clases/BasicList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Clases/BasicList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/musicplayer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/musicplayer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Song.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clientes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clientes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotiFy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spotiFy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Clases/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Clases/Artist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/BasicList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Clases/BasicList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Clases/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Clases/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Clases/Artist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Clases/BasicList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Clases/Genre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/MusicPlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/MusicPlayerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Resources/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Resources/musicplayer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/musicplayer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Clases/Song.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,9 +111,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2i47wR1onoUARS6n1sCyk4Dm1z9" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -171,32 +127,34 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
+    "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ASUS TUF/Desktop/Facultad/TpSpotiFyLabo3/librerias/javafx-sdk-22.0.1/lib",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/ASUS TUF/Desktop/Facultad/TpSpotiFyLabo3/librerias/jackson-core-2.17.1.jar",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3\src\spotiFy\Main\Resources" />
       <recent name="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3\src\spotiFy\Main" />
+      <recent name="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3\src\spotiFy\Main\Resources" />
       <recent name="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3\src\spotiFy" />
       <recent name="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3\src\spotiFy\Resources" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="JavaSE-17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
       <option name="MAIN_CLASS_NAME" value="spotiFy.Main.Main" />
       <module name="spotiFy" />
+      <option name="PROGRAM_PARAMETERS" value="-Djava.library.path=&quot;\librerias\javafx-sdk-11.0.2\bin&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="spotiFy.Main.*" />

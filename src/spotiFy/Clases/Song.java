@@ -1,59 +1,72 @@
-package spotiFy;
+package spotiFy.Clases;
 
-import spotiFy.Clases.Album;
-import spotiFy.Clases.Artist;
-import spotiFy.Clases.Genre;
 
-public class Song {
+public class Song  {
+private String nombreCancion;
+private String duracion; //HH:MM:SS
+private String genero;
+private String artistaCancion;
+private Integer year;
 
-	private String name;
-	   private Double duration;
-	   private Genre genre;
-	   private Artist invvitedArtist;
-	   private Album album;
-	public Song(String name, Double duration, Genre genre, Artist invvitedArtist, Album album) {
-		
-		this.name = name;
-		this.duration = duration;
-		this.genre = genre;
-		this.invvitedArtist = invvitedArtist;
-		this.album = album;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public Double getDuration() {
-		return duration;
-	}
-	public void setDuration(Double duration) {
-		this.duration = duration;
-	}
-	public Genre getGenre() {
-		return genre;
-	}
-	public void setGenre(Genre genre) {
-		this.genre = genre;
-	}
-	public Artist getInvvitedArtist() {
-		return invvitedArtist;
-	}
-	public void setInvvitedArtist(Artist invvitedArtist) {
-		this.invvitedArtist = invvitedArtist;
-	}
-	public Album getAlbum() {
-		return album;
-	}
-	public void setAlbum(Album album) {
-		this.album = album;
-	}
-	@Override
-	public String toString() {
-		return "Song [name=" + name + ", duration=" + duration + ", genre=" + genre + ", invvitedArtist="
-				+ invvitedArtist + ", album=" + album + "]";
-	}
-	   
-	   
+    public Song() {
+    }
+
+    public Song(String nombreCancion, String duracion, String genero, String artistaCancion, Integer year) {
+        this.nombreCancion = nombreCancion;
+        this.duracion = duracion;
+        this.genero = genero;
+        this.artistaCancion = artistaCancion;
+        this.year = year;
+    }
+
+    public String getNombreCancion() {
+        return nombreCancion;
+    }
+
+    public void setNombreCancion(String nombreCancion) {
+        this.nombreCancion = nombreCancion;
+    }
+
+    public String getDuracion() {
+        return duracion;
+    }
+
+    public void setDuracion(String duracion) {
+        this.duracion = duracion;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public String getArtistaCancion() {
+        return artistaCancion;
+    }
+
+    public void setArtistaCancion(String artistaCancion) {
+        this.artistaCancion = artistaCancion;
+    }
+
+    public Integer getYear() {
+        return year;
+    }
+
+    public void setYear(Integer year) {
+        this.year = year;
+    }
+
+    @Override
+    public String toString() {
+        return "Song{" +
+                "nombreCancion='" + nombreCancion + '\'' +
+                ", duracion='" + duracion + '\'' +
+                ", genero='" + genero + '\'' +
+                ", artistaCancion='" + artistaCancion + '\'' +
+                ", year=" + year +
+                '}';
+    }
 }

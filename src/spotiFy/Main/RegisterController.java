@@ -27,13 +27,14 @@ public class RegisterController {
     }
 
     public void handleRegister() {
+
         String email = emailField.getText();
         String name = nameField.getText();
         String password = passwordField.getText();
-        int newId = clienteService.listarClientes().size() + 1; // Simple ID generation
+        int newId = clienteService.listarClientes().size() + 1;
         Cliente cliente = new Cliente(newId, name, email, password);
         clienteService.registrarCliente(cliente);
-        // After registration, go back to login screen
+
         try {
             Stage stage = (Stage) emailField.getScene().getWindow();
             Parent root = FXMLLoader.load(getClass().getResource("/spotiFy/Main/Resources/login.fxml"));

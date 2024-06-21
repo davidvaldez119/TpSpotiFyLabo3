@@ -105,33 +105,37 @@ public class MusicPlayerController {
         TextField genreInput = new TextField();
         GridPane.setConstraints(genreInput, 1, 2);
 
+        // Artista de la canción
+        Label artistLabel = new Label("Artista:");
+        GridPane.setConstraints(artistLabel, 0, 3);
+        TextField artistInput = new TextField();
+        GridPane.setConstraints(artistInput, 1, 3);
 
-        // Álbum de la canción
-        Label albumLabel = new Label("Álbum:");
-        GridPane.setConstraints(albumLabel, 0, 4);
-        TextField albumInput = new TextField();
-        GridPane.setConstraints(albumInput, 1, 4);
-
+        // Año de la canción
+        Label yearLabel = new Label("Año:");
+        GridPane.setConstraints(yearLabel, 0, 4);
+        TextField yearInput = new TextField();
+        GridPane.setConstraints(yearInput, 1, 4);
 
         // Botón para agregar la canción
         Button addButton = new Button("Agregar");
-        GridPane.setConstraints(addButton, 1, 6);
+        GridPane.setConstraints(addButton, 1, 5);
         addButton.setOnAction(e -> {
             String name = nameInput.getText();
-            Double duration = Double.parseDouble(durationInput.getText());
-            Genre genre = Genre.valueOf(genreInput.getText().toUpperCase());
-            Artist invitedArtist = new Artist(artistInput.getText(), 0, "");
-            Album album = new Album(Integer.parseInt(yearInput.getText()), albumInput.getText(), invitedArtist);
+            String duration = durationInput.getText();
+            String genre = genreInput.getText();
+            String artist = artistInput.getText();
+            Integer year = Integer.parseInt(yearInput.getText());
 
-            Song song = new Song(name, duration, genre, invitedArtist, album);
+            Song song = new Song(name, duration, genre, artist, year);
             songList.add(song);
             saveSongsToFile();
             ventana.close();
         });
 
-        grid.getChildren().addAll(nameLabel, nameInput, durationLabel, durationInput, genreLabel, genreInput, artistLabel, artistInput, albumLabel, albumInput, yearLabel, yearInput, addButton);
+        grid.getChildren().addAll(nameLabel, nameInput, durationLabel, durationInput, genreLabel, genreInput, artistLabel, artistInput, yearLabel, yearInput, addButton);
 
-        Scene scene = new Scene(grid, 600, 400);
+        Scene scene = new Scene(grid, 400, 300);
         ventana.setScene(scene);
         ventana.showAndWait();
     }

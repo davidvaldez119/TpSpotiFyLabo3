@@ -13,9 +13,9 @@ import spotiFy.ClientesServ.ClienteArchi;
 
 public class LoginController {
     @FXML
-    private TextField emailField;
+    private TextField cajaMail;
     @FXML
-    private PasswordField passwordField;
+    private PasswordField cajaClave;
 
     private ClienteService clienteService;
 
@@ -25,32 +25,33 @@ public class LoginController {
     }
 
     public void handleLogin() {
-        String email = emailField.getText();
-        String password = passwordField.getText();
+        String email = cajaMail.getText();
+        String contrasena = cajaClave.getText();
         Cliente cliente = clienteService.listarClientes().stream()
-                .filter(c -> c.getCorreo().equals(email) && c.getContrasena().equals(password))
+                .filter(c -> c.getCorreo().equals(email) && c.getContrasena().equals(contrasena))
                 .findFirst()
                 .orElse(null);
 
         if (cliente != null) {
             // Load the music player scene
             try {
-                Stage stage = (Stage) emailField.getScene().getWindow();
+                Stage escena = (Stage) cajaMail.getScene().getWindow();
                 Parent root = FXMLLoader.load(getClass().getResource("/spotiFy/Main/Resources/musicplayer.fxml"));
-                stage.setScene(new Scene(root));
+                escena.setScene(new Scene(root));
+
             } catch (Exception e) {
                 e.printStackTrace();
             }
         } else {
-            System.out.println("Login failed");
+            System.out.println("Error al iniciar sesion");
         }
     }
 
     public void handleRegister() {
         try {
-            Stage stage = (Stage) emailField.getScene().getWindow();
+            Stage escena = (Stage) cajaMail.getScene().getWindow();
             Parent root = FXMLLoader.load(getClass().getResource("/spotiFy/Main/Resources/register.fxml"));
-            stage.setScene(new Scene(root));
+            escena.setScene(new Scene(root));
         } catch (Exception e) {
             e.printStackTrace();
         }

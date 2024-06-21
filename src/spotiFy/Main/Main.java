@@ -22,15 +22,10 @@ public class Main extends Application {
         primaryStage.setTitle("Spotify Javita");
         primaryStage.setScene(scene);
         primaryStage.show();
+
     }
 
     public static void main(String[] args) {
         launch(args);
     }
 }
-
-
-
-
-
-

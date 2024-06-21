@@ -6,8 +6,10 @@
 <?import javafx.scene.layout.VBox?>
 
 <VBox alignment="center" spacing="10" xmlns:fx="http://javafx.com/fxml" fx:controller="spotiFy.Main.MusicPlayerController">
-    <Label text="Welcome to Music Player!"/>
-    <Button text="Play" onAction="#handlePlay"/>
-    <Button text="Pause" onAction="#handlePause"/>
+
+    <Label text="Bienvenido a Spotify Javita!"/>
+    <Button text="Reproducir" onAction="#handlePlay"/>
+    <Button text="Pausa" onAction="#handlePause"/>
     <Button text="Stop" onAction="#handleStop"/>
+    <Button text="Agregar Canción" onAction="#handleAddSong"/>
 </VBox>
