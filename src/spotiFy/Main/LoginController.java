@@ -1,8 +1,11 @@
 package spotiFy.Main;
 
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -11,13 +14,18 @@ import spotiFy.ClientesServ.ClienteService;
 import spotiFy.ClientesServ.Cliente;
 import spotiFy.ClientesServ.ClienteArchi;
 
+import java.net.URL;
+import java.util.ResourceBundle;
+
 public class LoginController {
     @FXML
     private TextField cajaMail;
     @FXML
     private PasswordField cajaClave;
 
+
     private ClienteService clienteService;
+
 
     public LoginController() {
         ClienteArchi clienteArchi = new ClienteArchi("clientes.txt");
