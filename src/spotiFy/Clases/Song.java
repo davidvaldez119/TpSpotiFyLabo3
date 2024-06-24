@@ -61,12 +61,9 @@ private Integer year;
 
     @Override
     public String toString() {
-        return "Song{" +
-                "nombreCancion='" + nombreCancion + '\'' +
-                ", duracion='" + duracion + '\'' +
-                ", genero='" + genero + '\'' +
-                ", artistaCancion='" + artistaCancion + '\'' +
-                ", year=" + year +
-                '}';
+
+        return String.format("%s - %s\nGenero: %s\nDuration: (%s) %s",
+                nombreCancion, artistaCancion, genero, duracion, year);
+
     }
 }

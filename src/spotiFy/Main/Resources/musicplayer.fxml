@@ -7,7 +7,10 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.image.Image?>
 
-<VBox alignment="center" spacing="10" xmlns:fx="http://javafx.com/fxml" fx:controller="spotiFy.Main.MusicPlayerController" prefWidth="800" prefHeight="600">
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.text.Text?>
+<VBox alignment="center" spacing="7" xmlns:fx="http://javafx.com/fxml" fx:controller="spotiFy.Main.MusicPlayerController" prefWidth="800" prefHeight="600">
 
 
     <ImageView fx:id="logoImageView" fitHeight="300.0" fitWidth="300.0">
@@ -16,9 +19,12 @@
         </image>
     </ImageView>
 
-    <Label text="Bienvenido a Spotify Javita!"/>
+    <Text text="Bienvenido a SpotiJava!"/>
+    <Text text="Que vas a escuchar hoy?"/>
+
     <Button text="Reproducir" onAction="#handlePlay"/>
     <Button text="Pausa" onAction="#handlePause"/>
     <Button text="Stop" onAction="#handleStop"/>
     <Button text="Agregar Canción" onAction="#handleAddSong"/>
+    <Button text="Mostrar ultimas canciones" onAction="#mostrarCanciones"/>
 </VBox>

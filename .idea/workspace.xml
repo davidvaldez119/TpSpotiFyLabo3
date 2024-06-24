@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8e2444-85e2-48f6-ae0d-f49697d9c29e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/playlist/y2mate.com - Zé Roberto  Lotus 72D 1973.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Clases/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Clases/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/musicplayer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/musicplayer.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clientes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clientes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Resources/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songs.json" beforeDir="false" afterPath="$PROJECT_DIR$/songs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Clases/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Clases/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/MusicPlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/MusicPlayerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Resources/musicplayer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/musicplayer.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.media.Media;
@@ -41,10 +42,13 @@ public class MusicPlayerController {
         loadSongsFromFile();
     }
 
+    //Boton play para elegir cancion o reanudar
     @FXML
     public void handlePlay() {
         if (mediaPlayer == null) {
             FileChooser fileChooser = new FileChooser();
+            fileChooser.setInitialDirectory(new File("src/playlist"));
+
             fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Audio Files", "*.wav", "*.mp3"));
             File audioFile = fileChooser.showOpenDialog(new Stage());
             if (audioFile != null) {
@@ -57,6 +61,7 @@ public class MusicPlayerController {
         }
     }
 
+    //Boton pausa
     @FXML
     public void handlePause() {
         if (mediaPlayer != null) {
@@ -64,6 +69,7 @@ public class MusicPlayerController {
         }
     }
 
+    //Boton stop
     @FXML
     public void handleStop() {
         if (mediaPlayer != null) {
@@ -140,6 +146,7 @@ public class MusicPlayerController {
         ventana.showAndWait();
     }
 
+    //Agregar al .json
     private void saveSongsToFile() {
         ObjectMapper mapper = new ObjectMapper();
         try {
@@ -149,6 +156,7 @@ public class MusicPlayerController {
         }
     }
 
+    //Cargar del .json
     private void loadSongsFromFile() {
         ObjectMapper mapper = new ObjectMapper();
         try {
@@ -157,4 +165,26 @@ public class MusicPlayerController {
             e.printStackTrace();
         }
     }
+
+    public void mostrarCanciones() {
+        loadSongsFromFile();
+
+        Stage ventana = new Stage();
+        ventana.initModality(Modality.APPLICATION_MODAL);
+        ventana.setTitle("Ultimas canciones agregadas");
+
+        ListView<String> listaCanciones = new ListView<>();
+        for (Song song : songList) {
+            listaCanciones.getItems().add(song.toString());
+        }
+
+        GridPane grid = new GridPane();
+        grid.setPadding(new Insets(10, 10, 10, 10));
+        grid.add(listaCanciones, 0, 0);
+
+        Scene scene = new Scene(grid, 400, 500);
+        ventana.setScene(scene);
+        ventana.showAndWait();
+    }
+
 }
