@@ -22,8 +22,6 @@ public class LoginController {
     private TextField cajaMail;
     @FXML
     private PasswordField cajaClave;
-
-
     private ClienteService clienteService;
 
 

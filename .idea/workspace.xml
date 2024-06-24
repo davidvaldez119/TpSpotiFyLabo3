@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8e2444-85e2-48f6-ae0d-f49697d9c29e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/playlist/y2mate.com - Zé Roberto  Lotus 72D 1973.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/logo.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Clases/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Clases/Song.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/musicplayer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/musicplayer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clientes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/songs.json" beforeDir="false" afterPath="$PROJECT_DIR$/songs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Clases/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Clases/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/MusicPlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/MusicPlayerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Resources/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Resources/musicplayer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/musicplayer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Resources/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/register.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,28 +68,13 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3\src\spotiFy\Main\Resources" />
+      <recent name="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3\src\spotiFy\Main" />
       <recent name="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3\src\spotiFy\Main\Resources\images" />
       <recent name="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3\src\imagenes" />
-      <recent name="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3\src\spotiFy\Main" />
       <recent name="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3\src\spotiFy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SplashScreen">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
-      <option name="MAIN_CLASS_NAME" value="spotiFy.Main.Main" />
-      <module name="spotiFy" />
-      <option name="PROGRAM_PARAMETERS" value="-Djava.library.path=&quot;\librerias\javafx-sdk-11.0.2\bin&quot;" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spotiFy.Main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="SplashScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spotiFy.Main.SplashScreen" />
       <module name="spotiFy" />
@@ -105,7 +91,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SplashScreen" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
