@@ -18,9 +18,9 @@
     </ImageView>
 
 
-    <TextField fx:id="nameField" GridPane.rowIndex="1" GridPane.columnIndex="0" promptText="Name"/>
+    <TextField fx:id="nameField" GridPane.rowIndex="1" GridPane.columnIndex="0" promptText="Nombre"/>
     <TextField fx:id="emailField" GridPane.rowIndex="2" GridPane.columnIndex="0" promptText="Email"/>
-    <PasswordField fx:id="passwordField" GridPane.rowIndex="3" GridPane.columnIndex="0" promptText="Password"/>
-    <Button text="Register" onAction="#handleRegister" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
-    <Button text="Back" onAction="#handleBack" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+    <PasswordField fx:id="passwordField" GridPane.rowIndex="3" GridPane.columnIndex="0" promptText="Contraseña"/>
+    <Button text="Registrarse" onAction="#handleRegister" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <Button text="Volver" onAction="#handleBack" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
 </GridPane>
