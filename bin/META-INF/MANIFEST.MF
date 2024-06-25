@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: spotiFy.Main.SplashScreen
+Class-Path: librerias/jackson-annotations-2.17.1.jar
+Class-Path: librerias/jackson-core-2.17.1.jar
+Class-Path: librerias/jackson-databind-2.17.1.jar
+Class-Path: librerias/javafx-sdk-22.0.1
+

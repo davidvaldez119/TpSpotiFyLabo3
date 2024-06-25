@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -29,6 +30,7 @@ public class SplashScreen extends Application {
                 try {
                     Parent mainRoot = FXMLLoader.load(getClass().getResource("/spotiFy/Main/Resources/login.fxml"));
                     Stage mainStage = new Stage();
+
                     mainStage.setScene(new Scene(mainRoot));
                     mainStage.setTitle("SpotiJava");
 
