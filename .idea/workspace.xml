@@ -10,27 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8e2444-85e2-48f6-ae0d-f49697d9c29e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spotiFy_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spotiFy_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Clases/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Clases/Song.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/ClientesServ/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/ClientesServ/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/ClientesServ/ClienteArchi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/ClientesServ/ClienteArchi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/ClientesServ/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/ClientesServ/ClienteService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/MusicPlayerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/logo.ico" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/logo.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/Resources/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/spotiFy/Main/SplashScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotiFy/Main/SplashScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Resources/logo.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/logo.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Resources/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/SplashScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spotiFy_jar/spotiFy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +62,8 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ASUS TUF/Desktop/Facultad/TpSpotiFyLabo3/out/artifacts/spotiFy_jar/spotiFy.jar",
-    "project.structure.last.edited": "Libraries",
+    "last_opened_file_path": "C:/Users/usuario/Desktop/TpSpotiFyLabo3",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
@@ -94,7 +78,7 @@
       <recent name="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3\src\spotiFy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SplashScreen">
+  <component name="RunManager">
     <configuration name="SplashScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="MAIN_CLASS_NAME" value="spotiFy.Main.SplashScreen" />
@@ -109,17 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpotyJava" type="JarApplication">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/spotiFy_jar/spotiFy.jar" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\ASUS TUF\Desktop\Facultad\TpSpotiFyLabo3" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Application.SplashScreen" />
-      <item itemvalue="JAR Application.SpotyJava" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SplashScreen" />
