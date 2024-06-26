@@ -10,11 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8e2444-85e2-48f6-ae0d-f49697d9c29e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spotiFy_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/spotiFy_jar/spotiFy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clientes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Clases/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Clases/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/MusicPlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/MusicPlayerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Resources/musicplayer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/musicplayer.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">

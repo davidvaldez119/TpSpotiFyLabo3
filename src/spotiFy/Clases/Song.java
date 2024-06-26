@@ -8,15 +8,18 @@ private String genero;
 private String artistaCancion;
 private Integer year;
 
+private String URL;
+
     public Song() {
     }
 
-    public Song(String nombreCancion, String duracion, String genero, String artistaCancion, Integer year) {
+    public Song(String nombreCancion, String duracion, String genero, String artistaCancion, Integer year, String URL) {
         this.nombreCancion = nombreCancion;
         this.duracion = duracion;
         this.genero = genero;
         this.artistaCancion = artistaCancion;
         this.year = year;
+        this.URL = URL;
     }
 
     public String getNombreCancion() {
@@ -59,11 +62,19 @@ private Integer year;
         this.year = year;
     }
 
+    public String getURL() {
+        return URL;
+    }
+
+    public void setURL(String URL) {
+        this.URL = URL;
+    }
+
     @Override
     public String toString() {
 
-        return String.format("%s - %s\nGenero: %s\nDuration: (%s) %s",
-                nombreCancion, artistaCancion, genero, duracion, year);
+        return String.format("%s - %s\nGenero: %s\nDuration: (%s) %s\nLink:%s",
+                nombreCancion, artistaCancion, genero, duracion, year,URL);
 
     }
 }

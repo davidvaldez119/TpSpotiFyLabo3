@@ -23,4 +23,5 @@
     <Button text="Stop" onAction="#handleStop"/>
     <Button text="Agregar Canción" onAction="#handleAddSong"/>
     <Button text="Mostrar ultimas canciones" onAction="#mostrarCanciones"/>
+    <Button fx:id="salirButton" onAction="#cerrarSesion" text="Cerrar Sesion"/>
 </VBox>

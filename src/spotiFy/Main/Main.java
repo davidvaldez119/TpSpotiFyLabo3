@@ -17,7 +17,6 @@ public class Main extends Application {
 
         // Crear escena de 800x600
         Scene scene = new Scene(root, 800, 600);
-
         primaryStage.setTitle("Spotify Javita");
         primaryStage.setScene(scene);
         primaryStage.show();
