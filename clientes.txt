@@ -1,13 +1,10 @@
-1,Juan Carlos Perez,juan@example.com,password123
-2,Bensho,benchudelavega,tetas
 3,benjita,benchudelavega@gmail.com,caca
 4,benjaaaa,benchudelavega@hotmail.com,caca
-5,gordo choto,mierda@gmail.com,caca
 6,hola,holaa,1223
 7,chau,chauu,123
 8,bensho,benchudelavega@gmai.com,mikotuki
 9,hola,caca,123
 10,pepito,pepitopistola,123
-11,fer,fernandacapece@hotmail.com,fer
 12,bensho,bensho,123
 13,holaa,benjita@gmail.com,123
+10,david,david,123
