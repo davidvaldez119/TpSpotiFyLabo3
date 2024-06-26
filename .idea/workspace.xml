@@ -9,14 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8e2444-85e2-48f6-ae0d-f49697d9c29e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clientes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Clases/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Clases/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/MusicPlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/MusicPlayerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spotiFy/Main/Resources/musicplayer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotiFy/Main/Resources/musicplayer.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="2d8e2444-85e2-48f6-ae0d-f49697d9c29e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
