@@ -3,6 +3,8 @@ package spotiFy.Main;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
@@ -36,6 +38,9 @@ public class MusicPlayerController {
 
     @FXML
     private Button stopButton;
+
+    @FXML
+    private Button salirButton;
 
     @FXML
     public void initialize() {
@@ -123,23 +128,29 @@ public class MusicPlayerController {
         TextField yearInput = new TextField();
         GridPane.setConstraints(yearInput, 1, 4);
 
+        Label urlLabel = new Label("URL");
+        GridPane.setConstraints(urlLabel, 0,5);
+        TextField urlInput = new TextField();
+        GridPane.setConstraints(urlInput, 1,5);
+
         // Botón para agregar la canción
         Button addButton = new Button("Agregar");
-        GridPane.setConstraints(addButton, 1, 5);
+        GridPane.setConstraints(addButton, 1, 6);
         addButton.setOnAction(e -> {
             String name = nameInput.getText();
             String duration = durationInput.getText();
             String genre = genreInput.getText();
             String artist = artistInput.getText();
             Integer year = Integer.parseInt(yearInput.getText());
+            String URL = urlInput.getText();
 
-            Song song = new Song(name, duration, genre, artist, year);
+            Song song = new Song(name, duration, genre, artist, year, URL);
             songList.add(song);
             saveSongsToFile();
             ventana.close();
         });
 
-        grid.getChildren().addAll(nameLabel, nameInput, durationLabel, durationInput, genreLabel, genreInput, artistLabel, artistInput, yearLabel, yearInput, addButton);
+        grid.getChildren().addAll(nameLabel, nameInput, durationLabel, durationInput, genreLabel, genreInput, artistLabel, artistInput, yearLabel, yearInput, urlLabel, urlInput, addButton);
 
         Scene scene = new Scene(grid, 400, 300);
         ventana.setScene(scene);
@@ -187,4 +198,16 @@ public class MusicPlayerController {
         ventana.showAndWait();
     }
 
+
+    public void cerrarSesion() {
+        try {
+            Stage stage = (Stage) salirButton.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("/spotiFy/Main/Resources/login.fxml"));
+            stage.setScene(new Scene(root));
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
+
